@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 
-// cors only for dev
+// CORS
 app.use(
 	cors({
 		origin: '*',
